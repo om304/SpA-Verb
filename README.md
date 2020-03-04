@@ -7,7 +7,7 @@ Olga Majewska, Diana McCarthy, Jasper van den Bosch, Nikolaus Kriegeskorte, Ivan
 
 ## **Resource description**
 
-The resource comprises two types of verb data: 17 relatedness-based verb classes and a verb similarity dataset containing similarity scores for 29,721 unique verb pairs and 825 target verbs. Note that the scores are scaled Euclidean distances, therefore smaller scores correspond to greater similarity, while larger scores reflect a greater semantic distance (i.e. dissimilarity). We also make available evaluation files including pairwise similarity scores collected for each class, allowing for analyses and evaluation on chosen semantic classes and meaning domains (e.g., verbs of motion, verbs of communication, verbs of change). These two data types correspond to the two phases of our dataset construction methodology:
+The resource comprises two types of verb data: **17 relatedness-based verb classes** and a **verb similarity dataset** containing similarity scores for **29,721 unique verb pairs** and 825 target verbs. Note that the scores are scaled Euclidean distances, therefore smaller scores correspond to greater similarity, while larger scores reflect a greater semantic distance (i.e. dissimilarity). We also make available evaluation files including pairwise similarity scores collected for each class, allowing for analyses and evaluation on chosen semantic classes and meaning domains (e.g., verbs of motion, verbs of communication, verbs of change). These two data types correspond to the two phases of our dataset construction methodology:
 
 * **Phase 1: Rough semantic clustering** 
 
@@ -15,7 +15,7 @@ Human annotators are presented with a 825-verb sample and asked to group them in
 
 * **Phase 2: Spatial similarity judgments**
 
-Semantic verb classes from Phase 1 are presented individually around a circular 2D arena visible on the computer screen. Human annotators are asked to arrange the verbs on the arena based on the similarity of their meaning, putting similar verbs close together and dissimilar ones further apart.
+Semantic verb classes from Phase 1 are presented individually around a circular 2D arena visible on the computer screen. Human annotators are asked to arrange the verbs in the arena based on the similarity of their meaning, putting similar verbs close together and dissimilar ones further apart.
 
 Please refer to the paper for details of each phase and the rationale behind our methodology.
 
@@ -23,7 +23,7 @@ Please refer to the paper for details of each phase and the rationale behind our
 
 The directory includes the following files and folders:
 
-* 17verb_classes.txt - semantic verb classes resulting from Phase 1. 
+* 17verb_classes.txt - semantic verb classes resulting from Phase 1 
 * SpA-Verb.txt       - the complete similarity dataset resulting from Phase 2, with scores for 29,721 English verb pairs
 * SpA-Verb-THR.txt   - the thresholded subset of the entire dataset, including scores from classes with Spearman's IAA > 0.3
 * Phase 2/           - folder containing files with pairwise similarity scores for each of the 17 semantic classes 
@@ -45,7 +45,7 @@ A tab-separated plain text file including similarity scores for 29,721 English v
 
   Word2: The second verb of the pair.
 
-  Score: The SpA-Verb similarity score. Note that the similarity scores are scaled Euclidean distances (the lower the score, the more similar the two words are). Please take that into account when running Spearman rank-based correlation analyses.
+  Score: The SpA-Verb similarity score. The similarity scores are scaled Euclidean distances (the lower the score, the more similar the two words are). Please take that into account when running Spearman rank-based correlation analyses.
 
 * SpA-Verb-THR.txt
 
@@ -125,4 +125,4 @@ Each plain text file is tab-separated and follows the same format as SpA-Verb.tx
  
  ## License
  
- All data on this page is made available under the Creative Commons Attribution (CC BY) license.
+ All data on this page are made available under the Creative Commons Attribution (CC BY) license.
