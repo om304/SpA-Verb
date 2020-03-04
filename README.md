@@ -89,36 +89,40 @@ A tab-separated plain text file including similarity scores for the subset of 10
 
 Each plain text file is tab-separated and follows the same format as SpA-Verb.txt. Below we provide examples of verbs in each class to help identify the meaning domain on which the class in question focuses (e.g., motion verbs: _run_, _swim_, _skip_, communication verbs: _ask_, _inquire_, _argue_, cooking verbs: _bake_, _broil_, _fry_, etc.). Please refer to the paper for more details and examples.
 
- class 1: _beat, punch, smash, slap_
+ Class 1: _beat, punch, smash, slap_
  
- class 2: _accuse, condemn, forbid, blame_
+ Class 2: _accuse, condemn, forbid, blame_
  
- class 3: _accelerate, decrease, shrink, increase_
+ Class 3: _accelerate, decrease, shrink, increase_
  
- class 4: _achieve, aim, tackle, accomplish_
+ Class 4: _achieve, aim, tackle, accomplish_
  
- class 5: _acquire, have, keep, borrow_
+ Class 5: _acquire, have, keep, borrow_
  
- class 6: _dismay, frustrate, upset, irritate_
+ Class 6: _dismay, frustrate, upset, irritate_
  
- class 7: _ask, confess, discuss, inquire_
+ Class 7: _ask, confess, discuss, inquire_
  
- class 8: _approve, desire, prefer, respect_
+ Class 8: _approve, desire, prefer, respect_
  
- class 9: _calculate, analyze, predict, guess_
+ Class 9: _calculate, analyze, predict, guess_
  
- class 10: _climb, jump, roam, slide_
+ Class 10: _climb, jump, roam, slide_
  
- class 11: _bake, grate, slice, broil_
+ Class 11: _bake, grate, slice, broil_
  
- class 12: _cough, gulp, inhale, sniff_
+ Class 12: _cough, gulp, inhale, sniff_
  
- class 13: _chirp, hoot, roar, whistle_
+ Class 13: _chirp, hoot, roar, whistle_
  
- class 14: _build, fasten, mend, restore_
+ Class 14: _build, fasten, mend, restore_
  
- class 15: _drag, fling, haul, toss_
+ Class 15: _drag, fling, haul, toss_
  
- class 16: _demolish, erode, wreck, disintegrate_
+ Class 16: _demolish, erode, wreck, disintegrate_
  
- class 17: _glance, observe, perceive, look_
+ Class 17: _glance, observe, perceive, look_
+ 
+ ## License
+ 
+ All data on this page is made available under the Creative Commons Attribution (CC BY) license.
