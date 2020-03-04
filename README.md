@@ -23,10 +23,10 @@ Please refer to the paper for details of each phase and the rationale behind our
 
 The directory includes the following files and folders:
 
-* 17verb_classes.txt - semantic verb classes resulting from Phase 1 
-* SpA-Verb.txt       - the complete similarity dataset resulting from Phase 2, with scores for 29,721 English verb pairs
-* SpA-Verb-THR.txt   - the thresholded subset of the entire dataset, including scores from classes with Spearman's IAA > 0.3
-* Phase 2/           - folder containing files with pairwise similarity scores for each of the 17 semantic classes 
+* **17verb_classes.txt** - semantic verb classes resulting from Phase 1 
+* **SpA-Verb.txt**       - the complete similarity dataset resulting from Phase 2, with scores for 29,721 English verb pairs
+* **SpA-Verb-THR.txt**   - the thresholded subset of the entire dataset, including scores from classes with Spearman's IAA > 0.3
+* **Phase 2/**           - folder containing files with pairwise similarity scores for each of the 17 semantic classes 
 
 ## **Data format**
 
