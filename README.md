@@ -34,7 +34,7 @@ In the following we describe the format of each file.
 
 * 17verb-classes.txt
 
-A tab-separated plain text file including the 17 semantic verb classes resulting from Phase 1. The classes are numbered (1-17), in the format one class per line.
+A tab-separated plain text file including the 17 semantic verb classes resulting from Phase 1. The classes are numbered with class IDs (1-17), in the format one class per line.
 
 * SpA-Verb.txt
 
