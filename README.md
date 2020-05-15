@@ -3,7 +3,7 @@
 
 This repository contains the resource introduced in the paper: 
 
-Olga Majewska, Diana McCarthy, Jasper van den Bosch, Nikolaus Kriegeskorte, Ivan Vulić, and Anna Korhonen. 2020.  [__Spatial Multi-Arrangement for Clustering and Multi-way Similarity Dataset Construction__](http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.705.pdf). In Proceedings of LREC 2020.
+Olga Majewska, Diana McCarthy, Jasper van den Bosch, Nikolaus Kriegeskorte, Ivan Vulić, and Anna Korhonen. 2020.  [__Spatial Multi-Arrangement for Clustering and Multi-way Similarity Dataset Construction__](http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.705.pdf). In Proceedings of LREC 2020. [CITE](##cite)
 
 ## **Resource description**
 
@@ -122,6 +122,23 @@ Each plain text file is tab-separated and follows the same format as SpA-Verb.tx
  Class 16: _demolish, erode, wreck, disintegrate_
  
  Class 17: _glance, observe, perceive, look_
+ 
+ ## Cite
+ 
+ ```
+ @InProceedings{majewska-EtAl:2020:LREC,
+  author    = {Majewska, Olga  and  McCarthy, Diana  and  van den Bosch, Jasper  and  Kriegeskorte, Nikolaus  and  VuliÄ‡, Ivan  and  Korhonen, Anna},
+  title     = {Spatial Multi-Arrangement for Clustering and Multi-way Similarity Dataset Construction},
+  booktitle      = {Proceedings of The 12th Language Resources and Evaluation Conference},
+  month          = {May},
+  year           = {2020},
+  address        = {Marseille, France},
+  publisher      = {European Language Resources Association},
+  pages     = {5751--5760},
+  abstract  = {We present a novel methodology for fast bottom-up creation of large-scale semantic similarity resources to support development and evaluation of NLP systems. Our work targets verb similarity, but the methodology is equally applicable to other parts of speech. Our approach circumvents the bottleneck of slow and expensive manual development of lexical resources by leveraging semantic intuitions of native speakers and adapting a spatial multi-arrangement approach from cognitive neuroscience, used before only with visual stimuli, to lexical stimuli. Our approach critically obtains judgments of word similarity in the context of a set of related words, rather than of word pairs in isolation. We also handle lexical ambiguity as a natural consequence of a two-phase process where verbs are placed in broad semantic classes prior to the fine-grained spatial similarity judgments. Our proposed design produces a large-scale verb resource comprising 17 relatedness-based classes and a verb similarity dataset containing similarity scores for 29,721 unique verb pairs and 825 target verbs, which we release with this paper.},
+  url       = {https://www.aclweb.org/anthology/2020.lrec-1.705}
+}
+```
  
  ## License
  
