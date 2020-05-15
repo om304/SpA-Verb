@@ -3,7 +3,7 @@
 
 This repository contains the resource introduced in the paper: 
 
-Olga Majewska, Diana McCarthy, Jasper van den Bosch, Nikolaus Kriegeskorte, Ivan Vulić, and Anna Korhonen. 2020.  [__Spatial Multi-Arrangement for Clustering and Multi-way Similarity Dataset Construction__](http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.705.pdf). In Proceedings of LREC 2020. [CITE](## Cite)
+Olga Majewska, Diana McCarthy, Jasper van den Bosch, Nikolaus Kriegeskorte, Ivan Vulić, and Anna Korhonen. 2020.  [__Spatial Multi-Arrangement for Clustering and Multi-way Similarity Dataset Construction__](http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.705.pdf). In Proceedings of LREC 2020. [CITE](##cite)
 
 ## **Resource description**
 
@@ -124,6 +124,8 @@ Each plain text file is tab-separated and follows the same format as SpA-Verb.tx
  Class 17: _glance, observe, perceive, look_
  
  ## Cite
+ 
+ If you use the data from this repository, please cite:
  
  ```
  @InProceedings{majewska-EtAl:2020:LREC,
