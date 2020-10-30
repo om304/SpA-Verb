@@ -5,6 +5,8 @@ This repository contains the resource introduced in the paper:
 
 Olga Majewska, Diana McCarthy, Jasper van den Bosch, Nikolaus Kriegeskorte, Ivan Vulić, and Anna Korhonen. 2020.  [__Spatial Multi-Arrangement for Clustering and Multi-way Similarity Dataset Construction__](http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.705.pdf). In Proceedings of LREC 2020. [CITE](#Cite)
 
+A multilingual version of the dataset also including Finnish, Italian, Japanese, Polish, and Mandarin Chinese is available at [Multi-SpA-Verb](https://github.com/om304/Multi-SpA-Verb).
+
 ## **Resource description**
 
 The resource comprises two types of verb data: **17 relatedness-based verb classes** and a **verb similarity dataset** containing similarity scores for **29,721 unique verb pairs** and 825 target verbs. Note that the scores are scaled Euclidean distances, therefore smaller scores correspond to greater similarity, while larger scores reflect a greater semantic distance (i.e. dissimilarity). We also make available evaluation files including pairwise similarity scores collected for each class, allowing for analyses and evaluation on chosen semantic classes and meaning domains (e.g., verbs of motion, verbs of communication, verbs of change). These two data types correspond to the two phases of our dataset construction methodology:
