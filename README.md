@@ -1,9 +1,11 @@
 # SpA-Verb
 **Semantic similarity evaluation resource for English verbs**
 
-This repository contains the resource introduced in the paper: 
+This repository contains the resource introduced and described in the following papers: 
 
 Olga Majewska, Diana McCarthy, Jasper van den Bosch, Nikolaus Kriegeskorte, Ivan Vulić, and Anna Korhonen. 2020.  [__Spatial Multi-Arrangement for Clustering and Multi-way Similarity Dataset Construction__](http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.705.pdf). In Proceedings of LREC 2020. [CITE](#Cite)
+
+Olga Majewska, Diana McCarthy, Jasper van den Bosch, Nikolaus Kriegeskorte, Ivan Vulić, and Anna Korhonen. 2021.  [__Semantic Data Set Construction from Human Clustering and Spatial Arrangement__](https://www.mitpressjournals.org/doi/abs/10.1162/coli_a_00396). In Computational Linguistics. [CITE](#Cite)
 
 A multilingual version of the dataset also including Finnish, Italian, Japanese, Polish, and Mandarin Chinese is available at [Multi-SpA-Verb](https://github.com/om304/Multi-SpA-Verb).
 
