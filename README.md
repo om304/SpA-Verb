@@ -145,6 +145,17 @@ Each plain text file is tab-separated and follows the same format as SpA-Verb.tx
   url       = {https://www.aclweb.org/anthology/2020.lrec-1.705}
 }
 ```
+
+```
+@article{majewska2020semantic,
+  title={Semantic Data Set Construction from Human Clustering and Spatial Arrangement},
+  author={Majewska, Olga and McCarthy, Diana and van den Bosch, Jasper JF and Kriegeskorte, Nikolaus and Vuli{\'c}, Ivan and Korhonen, Anna},
+  journal={Computational Linguistics},
+  pages={1--48},
+  year={2020},
+  publisher={MIT Press}
+}
+```
  
  ## License
  
